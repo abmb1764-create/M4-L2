@@ -1,0 +1,8 @@
+t1=('aarav', 12, 10002.63, False)
+t2=(1, 45, 32, 675, 3456, 9)
+print(t1)
+print(t2)
+t3=t2+(7, )
+print(t3)
+print('The occurence of integer 9 in t2 is', t2.count(9))
+print('the middle numbers in t2 are ', t2[3:5])
